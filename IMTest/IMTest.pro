@@ -34,7 +34,8 @@ FORMS += \
         widget.ui
 
 INCLUDEPATH += \
-    ../HHIM
+    ../HHIM\
+    ../HHIM/libs/c_includes
 
 win32:{
         CONFIG(release, debug|release):{

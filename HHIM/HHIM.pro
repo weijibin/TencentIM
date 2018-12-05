@@ -8,6 +8,8 @@ QT       += widgets
 
 QT       -= gui
 
+CONFIG += c++11
+
 TARGET = HHIM
 TEMPLATE = lib
 
@@ -26,8 +28,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 # You can also select to disable deprecated APIs only up to a certain version of Qt.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
+INCLUDEPATH += \
+    ./libs/c_includes
+
 SOURCES += \
-        hhim.cpp
+        hhim.cpp \
+    callback.cpp
 
 HEADERS += \
         hhim.h \
@@ -45,12 +51,7 @@ HEADERS += \
     libs/c_includes/tim_relay_c.h \
     libs/c_includes/tim_status_c.h \
     libs/c_includes/tim_wrapper.h \
-    libs/includes/tim.h \
-    libs/includes/tim_comm.h \
-    libs/includes/tim_comm_c.h \
-    libs/includes/tim_conv.h \
-    libs/includes/tim_int.h \
-    libs/includes/tim_msg.h
+    callback.h
 
 unix {
     target.path = /usr/lib
