@@ -28,8 +28,10 @@ public:
 
 
 signals:
-    void sigRecMsg(QString info);           // 接收消息
-    void sigGroupState(QString state);   // 进入、退出、掉线
+    void sigRecMsg(const QString &info);           // 接收消息
+//    void sigGroupState(QString state);   // 进入、退出、掉线
+    void sigJoinGroup(const QString &groupId,const QStringList &ids);
+    void sigQuitGroup(const QString &groupId,const QStringList &ids);
 
     void sigKickOffline();
 

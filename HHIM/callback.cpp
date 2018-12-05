@@ -1,4 +1,5 @@
 #include "callback.h"
+#include "../HHIM/hhim.h"
 #include <QDebug>
 
 void ConnCallBack::OnConnected(void* data)
@@ -13,41 +14,61 @@ void ConnCallBack::OnDisconnected(void* data)
 void ForceOfflineCallBack::OnForceOffline(void* data)
 {
     qDebug()<<"ForceOffline! callback:%x"<<data;
+    emit HHIM::getInstance()->sigKickOffline();
 }
 
 void MessageCallBack::OnNewMessage(TIMMessageHandle* handles, uint32_t msg_num, void* data)
 {
     // 接收消息
     const uint32_t MAX_TXT_LEN = 100;
-        static int msg_count = 0;
-        static char buffer[MAX_TXT_LEN] = {};
-        for (int msg_idx = 0; msg_idx < msg_num; msg_idx++)
+    static int msg_count = 0;
+    static char buffer[MAX_TXT_LEN] = {};
+    for (int msg_idx = 0; msg_idx < msg_num; msg_idx++)
+    {
+        printf("new message %d\n", msg_count++);
+        TIMMessageHandle handle = handles[msg_idx];
+        TIMConversationHandle conv = CreateConversation();
+        GetConversationFromMsg(conv, handle);
+        for (int i = 0; i < GetElemCount(handle); i++)
         {
-            printf("new message %d\n", msg_count++);
-            TIMMessageHandle handle = handles[msg_idx];
-            TIMConversationHandle conv = CreateConversation();
-            GetConversationFromMsg(conv, handle);
-            for (int i = 0; i < GetElemCount(handle); i++)
+            auto elem = GetElem(handle, i);
+            auto type = GetElemType(elem);
+            printf("type = <%d>\n", type);
+            if (type == kElemText)
             {
-                auto elem = GetElem(handle, i);
-                auto type = GetElemType(elem);
-                printf("type = <%d>\n", type);
-                if (type == kElemText)
-                {
-                    auto len = MAX_TXT_LEN; GetContent(elem, buffer, &len); printf("text msg:%s", buffer);
-                }
+                auto len = MAX_TXT_LEN;
+                GetContent(elem, buffer, &len);
+                printf("text msg:%s", buffer);
+                emit HHIM::getInstance()->sigRecMsg(QString(buffer));
             }
-            DestroyConversation(conv);
         }
+        DestroyConversation(conv);
+    }
 }
 
 void GroupNotifyCallBack::MemberJoin(const char *groupId, const char **id, uint32_t num)
 {
     qDebug()<<"MemberJoin! callback:%x"<<groupId<<num<<"=="<<QString(*id);
+
+    QString group(groupId);
+    QStringList ids;
+    for(int i =0; i<num; i++)
+    {
+        ids.append(QString(*(id+i)));
+    }
+    emit HHIM::getInstance()->sigJoinGroup(group,ids);
 }
 void GroupNotifyCallBack::MemberQuit(const char *groupId, const char **id, uint32_t num)
 {
     qDebug()<<"MemberQuit! callback:%x"<<groupId<<num<<"=="<<QString(*id);
+
+    QString group(groupId);
+    QStringList ids;
+    for(int i =0; i<num; i++)
+    {
+        ids.append(QString(*(id+i)));
+    }
+    emit HHIM::getInstance()->sigQuitGroup(group,ids);
 }
 
 void GroupNotifyCallBack::MemberUpdate(const char *groupId, const char **id, uint32_t num)
