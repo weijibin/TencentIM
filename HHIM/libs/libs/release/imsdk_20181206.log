@@ -1,0 +1,291 @@
+[2018-12-6 15:7:27:413][ERROR][tim.cc:184][imcore::TIMManager::Init]InitSdk|1-Init|Succ|version:TIMSDK:2.5:release:drt:Jun 15 2018:09:46:59 msfappid:%d537049203
+[2018-12-6 15:7:27:461][DEBUG][timer_queue.cc:121][imcore::TimerQueue::RunLoop][IMCore]timer runloop: name|ctx_timer_queue fire_time_ms|18446744071687772516
+[2018-12-6 15:7:27:509][INFO][sso_conn.cc:791][imcore::SSOConn::CheckConn][IMCore]try to connect...
+[2018-12-6 15:7:27:509][EVENT][config_store.cc:134][imcore::ConfigStore::GetSsoAddrList][IMCore]reset idx
+[2018-12-6 15:7:27:509][EVENT][config_store.cc:228][imcore::ConfigStore::GetDefaultSsoAddrList][IMCore]use default sso addr list
+[2018-12-6 15:7:27:509][INFO][sso_conn.cc:261][imcore::SSOConn::Connect][IMCore]connect to 59.37.116.121:8080
+[2018-12-6 15:7:27:523][INFO][sso_conn.cc:1006][imcore::SSOConn::set_status][IMCore]set network status 2
+[2018-12-6 15:7:27:523][INFO][sso_conn.cc:1027][imcore::SSOConn::set_status][IMCore]conn has no callback to call! status:2
+[2018-12-6 15:7:27:558][INFO][http_conn.cc:283][imcore::HttpConn::ParseUrl][IMCore]schema:http||host:configsvr.openmsf.3g.qq.com|port:80|path:/configsvr/openlist.jsp|query:
+[2018-12-6 15:7:27:575][INFO][sso_conn.cc:129][imcore::conn_cb][IMCore]connect done:0
+[2018-12-6 15:7:27:575][DEBUG][sso_conn.cc:858][imcore::SSOConn::UpdateLastPkgTime][IMCore]UpdateLastPkgTime: 1230412808
+[2018-12-6 15:7:27:575][INFO][sso_conn.cc:1006][imcore::SSOConn::set_status][IMCore]set network status 1
+[2018-12-6 15:7:27:575][INFO][sso_conn.cc:1027][imcore::SSOConn::set_status][IMCore]conn has no callback to call! status:1
+[2018-12-6 15:7:27:618][INFO][db_http.cpp:77][imcore::HTTPRequest::encode][IMCore]out_len:295
+[2018-12-6 15:7:27:675][INFO][http_conn.cc:149][imcore::on_message_begin][IMCore]recv begin
+[2018-12-6 15:7:27:675][INFO][http_conn.cc:158][imcore::on_message_complete][IMCore]recv complete
+[2018-12-6 15:7:27:675][INFO][tim_sso_addr.cpp:45][SSoAddrAssitant::ParseSsoList][IMCore]len: 330|ver: 1|mobcmd: 2|mobseq: 1003
+[2018-12-6 15:7:27:675][EVENT][tim_sso_addr.cpp:53][SSoAddrAssitant::ParseSsoList][IMCore]ssolist rsp: 
+080812150a0e3138322e3235342e35312e31303410903f180012150a0e3138322e3235342e31382e32343710bb03180112140a0e3132332e3135312e37392e3134381050180012160a0f3132332e3135312e3133372e31303810b06d180112140a0d35392e33372e3131362e31323110bb03180112150a0f3130312e3232362e3233332e3139391050180112140a0e3138332e3233322e39352e3138381050180112140a0e3136332e3137372e35362e313233105018011a140a0e3138322e3235342e31382e323437105018001a150a0f3132332e3135312e3133372e313038105018001a130a0d35392e33372e3131362e313231105018001a150a0f3130312e3232362e3233332e313939105018001a140a0e3138332e3233322e39352e313838105018001a140a0e3136332e3137372e35362e31323310501800
+[2018-12-6 15:7:27:676][INFO][sso_conn.cc:929][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]UpdateSsoListByHttp get rsp
+[2018-12-6 15:7:27:676][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:182.254.51.104 port:8080
+[2018-12-6 15:7:27:676][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:182.254.18.247 port:443
+[2018-12-6 15:7:27:676][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:123.151.79.148 port:80
+[2018-12-6 15:7:27:676][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:123.151.137.108 port:14000
+[2018-12-6 15:7:27:676][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:59.37.116.121 port:443
+[2018-12-6 15:7:27:676][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:101.226.233.199 port:80
+[2018-12-6 15:7:27:676][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:183.232.95.188 port:80
+[2018-12-6 15:7:27:676][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:163.177.56.123 port:80
+[2018-12-6 15:7:27:676][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:182.254.18.247 port:80
+[2018-12-6 15:7:27:676][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:123.151.137.108 port:80
+[2018-12-6 15:7:27:676][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:59.37.116.121 port:80
+[2018-12-6 15:7:27:676][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:101.226.233.199 port:80
+[2018-12-6 15:7:27:676][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:183.232.95.188 port:80
+[2018-12-6 15:7:27:676][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:163.177.56.123 port:80
+[2018-12-6 15:7:27:680][INFO][sso_conn.cc:935][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]UpdateSsoListByHttp succ
+[2018-12-6 15:7:27:681][INFO][http_conn.cc:211][imcore::HttpConn::~HttpConn][IMCore]dtor: httpconn
+[2018-12-6 15:7:27:701][DEBUG][timer_queue.cc:81][imcore::TimerQueue::AddTimer][IMCore]add timer: id=report_task
+[2018-12-6 15:7:27:701][INFO][qr_proto.cc:37][imcore::StatBuilder::InitVersion][IMCore]StatBuilder InitVersion:2.7.2-7310
+[2018-12-6 15:7:27:701][DEBUG][timer_queue.cc:121][imcore::TimerQueue::RunLoop][IMCore]timer runloop: name|ctx_timer_queue fire_time_ms|18446744071601672757
+[2018-12-6 15:7:27:701][DEBUG][task_queue.cc:68][imcore::TaskQueue::RunLoop][IMCore]func begin, name: report_timer_queue
+[2018-12-6 15:7:27:702][DEBUG][tim_c.cpp:121][TIMLogin][IMCore]func: TIMLogin line:121  called!
+[2018-12-6 15:7:27:702][INFO][tim.cc:211][imcore::TIMManager::Login][IMCore]Login|1-Begin|call identifer=1173 sdkappid=1400002223
+[2018-12-6 15:7:27:702][INFO][auth.cc:370][imcore::TIMAuth::Login][IMCore]Login|1-Begin|Succ|identifer=1173 sdkappid=1400002223
+[2018-12-6 15:7:27:706][INFO][tim_int.cc:454][imcore::TIMIntManager::Init][IMCore]TIMIntManager::Init
+[2018-12-6 15:7:27:811][DEBUG][task_queue.cc:76][imcore::TaskQueue::RunLoop][IMCore]func end, name: report_timer_queue
+[2018-12-6 15:7:27:815][DEBUG][tls.cpp:115][Pack0xa0b][IMCore]pack 0xa0b package:head:uint32_command: 2571
+uint32_service_type: 2
+ body:uint32_sdkappid: 1400002223
+str_identifier: "1173"
+bytes_usersig: "eJyr5lJQUFAK8QnWS0xOzi-NK4kvqSxIVVKwUlAyMzJU0kFIFxRkpsQnlsQbF6WApQ1NDIDAyMjIGElVakVBZlFqfGJaSWoRWJWRqaWRgQGSisyU1LySzLRMqHxxcbyhoblx-MuZHU927H0xuVMvHtnW4pTseLDNuK0szkwHS-q6Bjp7unqUFfrnBSf653ilJAW4pFUYhJoauZZ7OFeYl6YEZqQ7m5VGhKYZmqckVzpmOrrm5ukbWOq7evoZmQZkubkklRZG*LlH5gbmuYUVV7hnhOSURHolpxUXuzra2iJZWZKZCwkiQ1MTEwNzc1NTUyWuWi4A8DNelQ__"
+
+[2018-12-6 15:7:27:815][INFO][transport.cpp:235][Transport::Pack][IMCore]pack without backsig
+[2018-12-6 15:7:27:817][INFO][sso_conn.cc:468][imcore::SSOConn::Send][IMCore]insert to wait_queue_|cmd:wtlogin64.trans_emp|queue size:1
+[2018-12-6 15:7:27:817][INFO][sso_conn.cc:415][imcore::SSOConn::SendRemained][IMCore]send network check buffer
+[2018-12-6 15:7:27:817][INFO][sso_conn.cc:429][imcore::SSOConn::SendRemained][IMCore]insert seq 16776 to resend queue, now size is 0
+[2018-12-6 15:7:27:817][INFO][sso_conn.cc:433][imcore::SSOConn::SendRemained][IMCore]add req to timeout queue:wtlogin64.trans_emp|seq:16776|daedline:1230423013|now:1230413013|timeout:10000
+[2018-12-6 15:7:27:817][INFO][sso_data.cc:357][imcore::SSOData::serialize][IMCore]uin:0 servicecmd:wtlogin64.trans_emp lower:wtlogin64.trans_emp
+[2018-12-6 15:7:27:817][INFO][sso_conn.cc:454][imcore::SSOConn::SendRemained][IMCore]send cmd:wtlogin64.trans_emp|seq:16776
+[2018-12-6 15:7:27:865][INFO][sso_conn.cc:68][imcore::read_cb][IMCore]read callback receive data len:25
+[2018-12-6 15:7:27:865][INFO][sso_conn.cc:1081][imcore::SSOConn::HandleNetworkCheckRsp][IMCore]recv network check response
+[2018-12-6 15:7:27:963][INFO][sso_conn.cc:68][imcore::read_cb][IMCore]read callback receive data len:303
+[2018-12-6 15:7:27:963][INFO][sso_conn.cc:597][imcore::SSOConn::Recv][IMCore]recv hexdump: 303
+0000012f000007d002140000000530b18ee13386b360509556d8cf3c02e752c6773f95e2cd589fa98e4c8330c83fe8f53f34b2a924535615b02d979b321ccd6b1c29558cc0e73fc44dc87118518153c56fd96ee67915a60533b606d39b0d3084c91b77c53a5e8002791b44c0a6fb9e6bd2f3e05be3a0fd44c38d3d4cd953af8ed87b7e30eaf864f239ff081907468b7c9e1d734017a0bbed63102058734352f8ad9009cf4bef28e3c905e9b84e730b44701eb393c28d81e514d9f41477d0f52485e98951e7b718ca66bb750a7a045434d11371336ec8bad3b3153ff5c422243c6de7ce3ab47e8c8df652f302746ac8072b638925d2058af93489f12cdbdbc34f5e7461708c4a5d954ac9973396fe64b97a9fba1783600cd450ba4f86f67bed893650ee5e5bffb16c07ca2755b6d9bb
+[2018-12-6 15:7:27:963][INFO][sso_conn.cc:606][imcore::SSOConn::Recv][IMCore]totalsize = 303
+[2018-12-6 15:7:27:963][DEBUG][sso_conn.cc:858][imcore::SSOConn::UpdateLastPkgTime][IMCore]UpdateLastPkgTime: 1230413163
+[2018-12-6 15:7:27:963][INFO][sso_conn.cc:622][imcore::SSOConn::Recv][IMCore]recv pkg|cmd:wtlogin64.trans_emp|seq:16776
+[2018-12-6 15:7:27:963][INFO][sso_conn.cc:636][imcore::SSOConn::Recv][IMCore]CURRENT 1 TIMES CALLBACK! BEFORE CALLBACK!
+[2018-12-6 15:7:27:964][INFO][tim_callback_impl_c.cpp:26][TIMCB_Request_C_Impl::OnSuccess][IMCore]OnSuccess() called!
+[2018-12-6 15:7:27:964][DEBUG][transport.cpp:149][RequestCallbackOnSuccessAsync][IMCore]recv succ
+[2018-12-6 15:7:27:964][INFO][transport.cpp:322][Transport::Unpack][IMCore]decrypt pkg succ
+[2018-12-6 15:7:27:964][INFO][transport.cpp:337][Transport::Unpack][IMCore]reply 0, get data succ:187
+[2018-12-6 15:7:27:964][EVENT][tls.cpp:138][Unpack0xa0b][IMCore]oidb head return failed:70013
+[2018-12-6 15:7:27:964][EVENT][auth.cc:340][imcore::TIMAuth::tlssdk_exchange_ticket_callback][IMCore]Login|1-Begin|Fail|tlssdk exchange ticket fail, code = 70013
+[2018-12-6 15:7:27:964][EVENT][tim_callback_impl_c.cpp:19][TIMCB_C_Impl::OnError][IMCore]OnError() called! code = 70013
+[2018-12-6 15:7:27:964][INFO][sso_conn.cc:638][imcore::SSOConn::Recv][IMCore]CURRENT 1 TIMES CALLBACK! AFTER CALLBACK!
+[2018-12-6 15:7:27:964][INFO][sso_conn.cc:597][imcore::SSOConn::Recv][IMCore]recv hexdump: 0
+
+[2018-12-6 15:7:27:964][EVENT][sso_conn.cc:601][imcore::SSOConn::Recv][IMCore]buffer size < 4
+[2018-12-6 15:8:13:675][ERROR][tim.cc:184][imcore::TIMManager::Init]InitSdk|1-Init|Succ|version:TIMSDK:2.5:release:drt:Jun 15 2018:09:46:59 msfappid:%d537049203
+[2018-12-6 15:8:13:682][DEBUG][timer_queue.cc:121][imcore::TimerQueue::RunLoop][IMCore]timer runloop: name|ctx_timer_queue fire_time_ms|18446744071687818738
+[2018-12-6 15:8:13:684][DEBUG][timer_queue.cc:81][imcore::TimerQueue::AddTimer][IMCore]add timer: id=report_task
+[2018-12-6 15:8:13:684][INFO][qr_proto.cc:37][imcore::StatBuilder::InitVersion][IMCore]StatBuilder InitVersion:2.7.2-7310
+[2018-12-6 15:8:13:684][DEBUG][task_queue.cc:68][imcore::TaskQueue::RunLoop][IMCore]func begin, name: report_timer_queue
+[2018-12-6 15:8:13:684][DEBUG][tim_c.cpp:121][TIMLogin][IMCore]func: TIMLogin line:121  called!
+[2018-12-6 15:8:13:684][DEBUG][timer_queue.cc:121][imcore::TimerQueue::RunLoop][IMCore]timer runloop: name|ctx_timer_queue fire_time_ms|18446744071601718740
+[2018-12-6 15:8:13:684][INFO][tim.cc:211][imcore::TIMManager::Login][IMCore]Login|1-Begin|call identifer=1173 sdkappid=1400002223
+[2018-12-6 15:8:13:684][INFO][auth.cc:370][imcore::TIMAuth::Login][IMCore]Login|1-Begin|Succ|identifer=1173 sdkappid=1400002223
+[2018-12-6 15:8:13:684][INFO][tim_int.cc:454][imcore::TIMIntManager::Init][IMCore]TIMIntManager::Init
+[2018-12-6 15:8:13:689][DEBUG][tls.cpp:115][Pack0xa0b][IMCore]pack 0xa0b package:head:uint32_command: 2571
+uint32_service_type: 2
+ body:uint32_sdkappid: 1400002223
+str_identifier: "1173"
+bytes_usersig: "eJyr5lJQUFAK8QnWS0xOzi-NK4kvqSxIVVKwUlAyMzJU0kFIFxRkpsQnlsQbF6WApQ1NDIDAyMjIGElVakVBZlFqfGJaSWoRWJWRqaWRgQGSisyU1LySzLRMqHxxcbyhoblx-MuZHU927H0xuVMvHtnW4pTseLDNuK0szkwHS-q6hjp7unlnBvuaVPg4unklB3s4elYUhGo7FWTrl-npFzu7GlQlaRt7e-l4uDhWBDlmujqWuRV4BJVGVrqU55flGOYmpgZ7BTn5eqYW54X4B5qVRUamB5n5m3t7BQWF2iJZWZKZCwkiQ1MTEwMLAwNTCyWuWi4ArrFd1w__"
+
+[2018-12-6 15:8:13:689][INFO][transport.cpp:235][Transport::Pack][IMCore]pack without backsig
+[2018-12-6 15:8:13:690][INFO][sso_conn.cc:468][imcore::SSOConn::Send][IMCore]insert to wait_queue_|cmd:wtlogin64.trans_emp|queue size:1
+[2018-12-6 15:8:13:732][INFO][sso_conn.cc:791][imcore::SSOConn::CheckConn][IMCore]try to connect...
+[2018-12-6 15:8:13:732][EVENT][config_store.cc:134][imcore::ConfigStore::GetSsoAddrList][IMCore]reset idx
+[2018-12-6 15:8:13:732][EVENT][config_store.cc:228][imcore::ConfigStore::GetDefaultSsoAddrList][IMCore]use default sso addr list
+[2018-12-6 15:8:13:732][INFO][sso_conn.cc:261][imcore::SSOConn::Connect][IMCore]connect to 59.37.116.121:8080
+[2018-12-6 15:8:13:732][INFO][sso_conn.cc:1006][imcore::SSOConn::set_status][IMCore]set network status 2
+[2018-12-6 15:8:13:732][INFO][sso_conn.cc:1027][imcore::SSOConn::set_status][IMCore]conn has no callback to call! status:2
+[2018-12-6 15:8:13:732][INFO][http_conn.cc:283][imcore::HttpConn::ParseUrl][IMCore]schema:http||host:configsvr.openmsf.3g.qq.com|port:80|path:/configsvr/openlist.jsp|query:
+[2018-12-6 15:8:13:744][DEBUG][task_queue.cc:76][imcore::TaskQueue::RunLoop][IMCore]func end, name: report_timer_queue
+[2018-12-6 15:8:13:776][INFO][sso_conn.cc:129][imcore::conn_cb][IMCore]connect done:0
+[2018-12-6 15:8:13:776][DEBUG][sso_conn.cc:858][imcore::SSOConn::UpdateLastPkgTime][IMCore]UpdateLastPkgTime: 1230458975
+[2018-12-6 15:8:13:776][INFO][sso_conn.cc:1006][imcore::SSOConn::set_status][IMCore]set network status 1
+[2018-12-6 15:8:13:776][INFO][sso_conn.cc:1027][imcore::SSOConn::set_status][IMCore]conn has no callback to call! status:1
+[2018-12-6 15:8:13:776][INFO][sso_conn.cc:415][imcore::SSOConn::SendRemained][IMCore]send network check buffer
+[2018-12-6 15:8:13:776][INFO][sso_conn.cc:429][imcore::SSOConn::SendRemained][IMCore]insert seq 7457 to resend queue, now size is 0
+[2018-12-6 15:8:13:776][INFO][sso_conn.cc:433][imcore::SSOConn::SendRemained][IMCore]add req to timeout queue:wtlogin64.trans_emp|seq:7457|daedline:1230468925|now:1230458975|timeout:10000
+[2018-12-6 15:8:13:776][INFO][sso_data.cc:357][imcore::SSOData::serialize][IMCore]uin:0 servicecmd:wtlogin64.trans_emp lower:wtlogin64.trans_emp
+[2018-12-6 15:8:13:776][INFO][sso_conn.cc:454][imcore::SSOConn::SendRemained][IMCore]send cmd:wtlogin64.trans_emp|seq:7457
+[2018-12-6 15:8:13:783][EVENT][sso_conn.cc:1039][imcore::SSOConn::CheckResend][IMCore]resend ip list is empty
+[2018-12-6 15:8:13:784][INFO][db_http.cpp:77][imcore::HTTPRequest::encode][IMCore]out_len:295
+[2018-12-6 15:8:13:823][INFO][sso_conn.cc:68][imcore::read_cb][IMCore]read callback receive data len:25
+[2018-12-6 15:8:13:823][INFO][sso_conn.cc:1081][imcore::SSOConn::HandleNetworkCheckRsp][IMCore]recv network check response
+[2018-12-6 15:8:13:833][EVENT][sso_conn.cc:1039][imcore::SSOConn::CheckResend][IMCore]resend ip list is empty
+[2018-12-6 15:8:13:884][EVENT][sso_conn.cc:1039][imcore::SSOConn::CheckResend][IMCore]resend ip list is empty
+[2018-12-6 15:8:13:893][INFO][http_conn.cc:149][imcore::on_message_begin][IMCore]recv begin
+[2018-12-6 15:8:13:893][INFO][http_conn.cc:158][imcore::on_message_complete][IMCore]recv complete
+[2018-12-6 15:8:13:893][INFO][tim_sso_addr.cpp:45][SSoAddrAssitant::ParseSsoList][IMCore]len: 329|ver: 1|mobcmd: 2|mobseq: 1003
+[2018-12-6 15:8:13:893][EVENT][tim_sso_addr.cpp:53][SSoAddrAssitant::ParseSsoList][IMCore]ssolist rsp: 
+080812150a0e3138322e3235342e31382e32343710903f180112150a0e3138322e3235342e35312e31303410bb03180012150a0f3132332e3135312e3133372e3130381050180112150a0e3132332e3135312e37392e31343810b06d180012130a0c3138332e332e3232352e353410bb03180012150a0f3130312e3232362e3233332e3139391050180112140a0e3138332e3233322e39352e3138381050180112140a0e3136332e3137372e35362e313233105018011a140a0e3138322e3235342e31382e323437105018001a150a0f3132332e3135312e3133372e313038105018001a130a0d35392e33372e3131362e313231105018001a150a0f3130312e3232362e3233332e313939105018001a140a0e3138332e3233322e39352e313838105018001a140a0e3136332e3137372e35362e31323310501800
+[2018-12-6 15:8:13:893][INFO][sso_conn.cc:929][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]UpdateSsoListByHttp get rsp
+[2018-12-6 15:8:13:893][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:182.254.18.247 port:8080
+[2018-12-6 15:8:13:893][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:182.254.51.104 port:443
+[2018-12-6 15:8:13:893][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:123.151.137.108 port:80
+[2018-12-6 15:8:13:893][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:123.151.79.148 port:14000
+[2018-12-6 15:8:13:893][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:183.3.225.54 port:443
+[2018-12-6 15:8:13:893][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:101.226.233.199 port:80
+[2018-12-6 15:8:13:893][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:183.232.95.188 port:80
+[2018-12-6 15:8:13:893][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:163.177.56.123 port:80
+[2018-12-6 15:8:13:893][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:182.254.18.247 port:80
+[2018-12-6 15:8:13:893][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:123.151.137.108 port:80
+[2018-12-6 15:8:13:893][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:59.37.116.121 port:80
+[2018-12-6 15:8:13:893][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:101.226.233.199 port:80
+[2018-12-6 15:8:13:893][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:183.232.95.188 port:80
+[2018-12-6 15:8:13:893][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:163.177.56.123 port:80
+[2018-12-6 15:8:13:897][INFO][sso_conn.cc:935][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]UpdateSsoListByHttp succ
+[2018-12-6 15:8:13:897][INFO][http_conn.cc:211][imcore::HttpConn::~HttpConn][IMCore]dtor: httpconn
+[2018-12-6 15:8:13:922][INFO][sso_conn.cc:68][imcore::read_cb][IMCore]read callback receive data len:303
+[2018-12-6 15:8:13:922][INFO][sso_conn.cc:597][imcore::SSOConn::Recv][IMCore]recv hexdump: 303
+0000012f000007d002140000000530810d1d56b15a8d806027124a01db29c79e8ba6b46295e811bef89c6c0d8456e05fcf18aa40d5492f06b332bbbbbacb45904378c1b4aa44d7e2b82fe447e7ec91e283e7a12db55193f6bc5935163888327e56f53faa97c41d884ee99544feb948815e3f7730e69070e7af5b7082ca6bae4a6b4779b4d38cf857ba648bae3f3a21a222204a187b397c1712e778017564ae829529d4fbc320bf209a5901ce588dd70b9373c45305b4fe4597c57a2b7c6708ad461ccc2d8ecf24d0e6a4304f522c5833d8d69af58bcc246a4a0611f64078ef06473633a0a9219ed9c47a3d8e2b63a193494b25fc454cc8621faa84e849951652dc91110780c69705c8e4be43b25d2529116464f1e3c0dd54bb71148aa0de9a579a9e6b31d7e225e62678d26d1e4ebd
+[2018-12-6 15:8:13:922][INFO][sso_conn.cc:606][imcore::SSOConn::Recv][IMCore]totalsize = 303
+[2018-12-6 15:18:17:362][ERROR][tim.cc:184][imcore::TIMManager::Init]InitSdk|1-Init|Succ|version:TIMSDK:2.5:release:drt:Jun 15 2018:09:46:59 msfappid:%d537049203
+[2018-12-6 15:18:17:369][DEBUG][timer_queue.cc:121][imcore::TimerQueue::RunLoop][IMCore]timer runloop: name|ctx_timer_queue fire_time_ms|18446744071688422425
+[2018-12-6 15:18:17:370][DEBUG][timer_queue.cc:81][imcore::TimerQueue::AddTimer][IMCore]add timer: id=report_task
+[2018-12-6 15:18:17:370][INFO][qr_proto.cc:37][imcore::StatBuilder::InitVersion][IMCore]StatBuilder InitVersion:2.7.2-7310
+[2018-12-6 15:18:17:370][DEBUG][tim_c.cpp:121][TIMLogin][IMCore]func: TIMLogin line:121  called!
+[2018-12-6 15:18:17:370][INFO][tim.cc:211][imcore::TIMManager::Login][IMCore]Login|1-Begin|call identifer=1173_?????_1_ss sdkappid=1400002223
+[2018-12-6 15:18:17:370][DEBUG][task_queue.cc:68][imcore::TaskQueue::RunLoop][IMCore]func begin, name: report_timer_queue
+[2018-12-6 15:18:17:370][DEBUG][timer_queue.cc:121][imcore::TimerQueue::RunLoop][IMCore]timer runloop: name|ctx_timer_queue fire_time_ms|18446744071602322426
+[2018-12-6 15:18:17:370][INFO][auth.cc:370][imcore::TIMAuth::Login][IMCore]Login|1-Begin|Succ|identifer=1173_?????_1_ss sdkappid=1400002223
+[2018-12-6 15:18:17:370][INFO][tim_int.cc:454][imcore::TIMIntManager::Init][IMCore]TIMIntManager::Init
+[2018-12-6 15:18:17:376][DEBUG][tls.cpp:115][Pack0xa0b][IMCore]pack 0xa0b package:head:uint32_command: 2571
+uint32_service_type: 2
+ body:uint32_sdkappid: 1400002223
+str_identifier: "1173_?????_1_ss"
+bytes_usersig: "eJyr5lJQUFAK8QnWS0xOzi-NK4kvqSxIVVKwUlAyMzJU0kFIFxRkpsQnlsQbF6WApQ1NDIDAyMjIGElVakVBZlFqfGJaSWoRWJWRqaWRgQGSisyU1LySzLRMqLyhoblx-MuZHU927H0xuVMv3jC*uBhJdXFKdjzYZtxWFmemgyV9XQOdPT2ccoOzTNKyK909tS0L8nyD3XMqKwtcs-wNAwN8SgqMco2CwwMLLPNC9HMdM50Mc4Pc8gsLQ7MtIgJd-E2d-CNM9HOcwytdzXPT3Ez9fA09wgz9MiqDDEvTbW2RrCzJzIUEkaGpiYmBhYGZkakSVy0XANHsXbg_"
+
+[2018-12-6 15:18:17:376][INFO][transport.cpp:235][Transport::Pack][IMCore]pack without backsig
+[2018-12-6 15:18:17:376][INFO][sso_conn.cc:468][imcore::SSOConn::Send][IMCore]insert to wait_queue_|cmd:wtlogin64.trans_emp|queue size:1
+[2018-12-6 15:18:17:407][DEBUG][task_queue.cc:76][imcore::TaskQueue::RunLoop][IMCore]func end, name: report_timer_queue
+[2018-12-6 15:18:17:418][INFO][sso_conn.cc:791][imcore::SSOConn::CheckConn][IMCore]try to connect...
+[2018-12-6 15:18:17:418][EVENT][config_store.cc:134][imcore::ConfigStore::GetSsoAddrList][IMCore]reset idx
+[2018-12-6 15:18:17:418][EVENT][config_store.cc:228][imcore::ConfigStore::GetDefaultSsoAddrList][IMCore]use default sso addr list
+[2018-12-6 15:18:17:418][INFO][sso_conn.cc:261][imcore::SSOConn::Connect][IMCore]connect to 59.37.116.121:8080
+[2018-12-6 15:18:17:418][INFO][sso_conn.cc:1006][imcore::SSOConn::set_status][IMCore]set network status 2
+[2018-12-6 15:18:17:418][INFO][sso_conn.cc:1027][imcore::SSOConn::set_status][IMCore]conn has no callback to call! status:2
+[2018-12-6 15:18:17:418][INFO][http_conn.cc:283][imcore::HttpConn::ParseUrl][IMCore]schema:http||host:configsvr.openmsf.3g.qq.com|port:80|path:/configsvr/openlist.jsp|query:
+[2018-12-6 15:18:17:470][INFO][db_http.cpp:77][imcore::HTTPRequest::encode][IMCore]out_len:295
+[2018-12-6 15:18:17:473][INFO][sso_conn.cc:129][imcore::conn_cb][IMCore]connect done:0
+[2018-12-6 15:18:17:473][DEBUG][sso_conn.cc:858][imcore::SSOConn::UpdateLastPkgTime][IMCore]UpdateLastPkgTime: 1231062713
+[2018-12-6 15:18:17:473][INFO][sso_conn.cc:1006][imcore::SSOConn::set_status][IMCore]set network status 1
+[2018-12-6 15:18:17:473][INFO][sso_conn.cc:1027][imcore::SSOConn::set_status][IMCore]conn has no callback to call! status:1
+[2018-12-6 15:18:17:473][INFO][sso_conn.cc:415][imcore::SSOConn::SendRemained][IMCore]send network check buffer
+[2018-12-6 15:18:17:473][INFO][sso_conn.cc:429][imcore::SSOConn::SendRemained][IMCore]insert seq 31724 to resend queue, now size is 0
+[2018-12-6 15:18:17:473][INFO][sso_conn.cc:433][imcore::SSOConn::SendRemained][IMCore]add req to timeout queue:wtlogin64.trans_emp|seq:31724|daedline:1231072612|now:1231062713|timeout:10000
+[2018-12-6 15:18:17:473][INFO][sso_data.cc:357][imcore::SSOData::serialize][IMCore]uin:0 servicecmd:wtlogin64.trans_emp lower:wtlogin64.trans_emp
+[2018-12-6 15:18:17:473][INFO][sso_conn.cc:454][imcore::SSOConn::SendRemained][IMCore]send cmd:wtlogin64.trans_emp|seq:31724
+[2018-12-6 15:18:17:521][EVENT][sso_conn.cc:1039][imcore::SSOConn::CheckResend][IMCore]resend ip list is empty
+[2018-12-6 15:18:17:526][INFO][sso_conn.cc:68][imcore::read_cb][IMCore]read callback receive data len:25
+[2018-12-6 15:18:17:526][INFO][sso_conn.cc:1081][imcore::SSOConn::HandleNetworkCheckRsp][IMCore]recv network check response
+[2018-12-6 15:18:17:543][INFO][http_conn.cc:149][imcore::on_message_begin][IMCore]recv begin
+[2018-12-6 15:18:17:543][INFO][http_conn.cc:158][imcore::on_message_complete][IMCore]recv complete
+[2018-12-6 15:18:17:543][INFO][tim_sso_addr.cpp:45][SSoAddrAssitant::ParseSsoList][IMCore]len: 327|ver: 1|mobcmd: 2|mobseq: 1003
+[2018-12-6 15:18:17:543][EVENT][tim_sso_addr.cpp:53][SSoAddrAssitant::ParseSsoList][IMCore]ssolist rsp: 
+080812150a0e3138322e3235342e31382e32343710903f180112150a0e3138322e3235342e35312e31303410bb03180012140a0e3132332e3135312e37392e3134381050180012160a0f3132332e3135312e3133372e31303810b06d180112130a0c3138332e332e3232352e353410bb03180012150a0f3130312e3232362e3233332e3139391050180112130a0d3138332e3233322e39362e31371050180012130a0d35382e3235302e3133362e3533105018001a140a0e3138322e3235342e31382e323437105018001a150a0f3132332e3135312e3133372e313038105018001a130a0d35392e33372e3131362e313231105018001a150a0f3130312e3232362e3233332e313939105018001a140a0e3138332e3233322e39352e313838105018001a140a0e3136332e3137372e35362e31323310501800
+[2018-12-6 15:18:17:543][INFO][sso_conn.cc:929][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]UpdateSsoListByHttp get rsp
+[2018-12-6 15:18:17:543][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:182.254.18.247 port:8080
+[2018-12-6 15:18:17:543][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:182.254.51.104 port:443
+[2018-12-6 15:18:17:543][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:123.151.79.148 port:80
+[2018-12-6 15:18:17:543][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:123.151.137.108 port:14000
+[2018-12-6 15:18:17:543][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:183.3.225.54 port:443
+[2018-12-6 15:18:17:543][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:101.226.233.199 port:80
+[2018-12-6 15:18:17:543][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:183.232.96.17 port:80
+[2018-12-6 15:18:17:543][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:58.250.136.53 port:80
+[2018-12-6 15:18:17:543][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:182.254.18.247 port:80
+[2018-12-6 15:18:17:543][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:123.151.137.108 port:80
+[2018-12-6 15:18:17:543][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:59.37.116.121 port:80
+[2018-12-6 15:18:17:543][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:101.226.233.199 port:80
+[2018-12-6 15:18:17:543][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:183.232.95.188 port:80
+[2018-12-6 15:18:17:543][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:163.177.56.123 port:80
+[2018-12-6 15:18:17:547][INFO][sso_conn.cc:935][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]UpdateSsoListByHttp succ
+[2018-12-6 15:18:17:547][INFO][http_conn.cc:211][imcore::HttpConn::~HttpConn][IMCore]dtor: httpconn
+[2018-12-6 15:18:17:618][INFO][sso_conn.cc:68][imcore::read_cb][IMCore]read callback receive data len:327
+[2018-12-6 15:18:17:618][INFO][sso_conn.cc:597][imcore::SSOConn::Recv][IMCore]recv hexdump: 327
+00000147000007d0021400000005302f62961c2866e37b387a2c1470e919fe18a2f9206a3fd3ce6336ec0705b648b47eb02c18bcc623697b3f122f51924541162cfe8fc4dffd3569cb74b7f78f3751a3b84dab6b3eca35cc5845b252a7ef5f16b2067f3ce8eece23bca9293cc04ae70b339d5330705ca16313f465c993f2b2ad749e021e744693650ebdf6361e06c46961eb1c17ab0671a95beffeaed55dfe003256bc031c5c2895cd49f31935793a0fd23e787fd1e808c239234f97fa9f1572fa56a0421d525e07f519c128493652f3daf6c0b7c73a79ef99e74502f64d5a95b55c64b4fef00264feb55c588b4ad5471d75734b01aa419ac0d82ad1df752c90040f3d1ad20be87f7829b0c7fa68eea14938fd8693cec533f0cfd2c2ee95b46e62013ccd2b5802ffa23d4a4186ab5fdf909a1f07535df51201e1c906ed98035e9f107e595b27c4
+[2018-12-6 15:18:17:618][INFO][sso_conn.cc:606][imcore::SSOConn::Recv][IMCore]totalsize = 327
+[2018-12-6 15:18:17:618][DEBUG][sso_conn.cc:858][imcore::SSOConn::UpdateLastPkgTime][IMCore]UpdateLastPkgTime: 1231062814
+[2018-12-6 15:18:17:618][INFO][sso_conn.cc:622][imcore::SSOConn::Recv][IMCore]recv pkg|cmd:wtlogin64.trans_emp|seq:31724
+[2018-12-6 15:18:17:618][INFO][sso_conn.cc:636][imcore::SSOConn::Recv][IMCore]CURRENT 1 TIMES CALLBACK! BEFORE CALLBACK!
+[2018-12-6 15:18:17:618][INFO][tim_callback_impl_c.cpp:26][TIMCB_Request_C_Impl::OnSuccess][IMCore]OnSuccess() called!
+[2018-12-6 15:18:17:618][DEBUG][transport.cpp:149][RequestCallbackOnSuccessAsync][IMCore]recv succ
+[2018-12-6 15:18:17:618][INFO][transport.cpp:322][Transport::Unpack][IMCore]decrypt pkg succ
+[2018-12-6 15:18:17:618][INFO][transport.cpp:337][Transport::Unpack][IMCore]reply 0, get data succ:209
+[2018-12-6 15:18:17:618][EVENT][tls.cpp:138][Unpack0xa0b][IMCore]oidb head return failed:70013
+[2018-12-6 15:18:17:618][EVENT][auth.cc:340][imcore::TIMAuth::tlssdk_exchange_ticket_callback][IMCore]Login|1-Begin|Fail|tlssdk exchange ticket fail, code = 70013
+[2018-12-6 15:18:17:618][EVENT][tim_callback_impl_c.cpp:19][TIMCB_C_Impl::OnError][IMCore]OnError() called! code = 70013
+[2018-12-6 15:18:17:618][INFO][sso_conn.cc:638][imcore::SSOConn::Recv][IMCore]CURRENT 1 TIMES CALLBACK! AFTER CALLBACK!
+[2018-12-6 15:18:17:618][INFO][sso_conn.cc:597][imcore::SSOConn::Recv][IMCore]recv hexdump: 0
+
+[2018-12-6 15:18:17:618][EVENT][sso_conn.cc:601][imcore::SSOConn::Recv][IMCore]buffer size < 4
+[2018-12-6 15:47:45:953][ERROR][tim.cc:184][imcore::TIMManager::Init]InitSdk|1-Init|Succ|version:TIMSDK:2.5:release:drt:Jun 15 2018:09:46:59 msfappid:%d537049203
+[2018-12-6 15:47:45:960][DEBUG][timer_queue.cc:121][imcore::TimerQueue::RunLoop][IMCore]timer runloop: name|ctx_timer_queue fire_time_ms|18446744071690191016
+[2018-12-6 15:47:45:961][DEBUG][timer_queue.cc:81][imcore::TimerQueue::AddTimer][IMCore]add timer: id=report_task
+[2018-12-6 15:47:45:961][INFO][qr_proto.cc:37][imcore::StatBuilder::InitVersion][IMCore]StatBuilder InitVersion:2.7.2-7310
+[2018-12-6 15:47:45:961][DEBUG][tim_c.cpp:121][TIMLogin][IMCore]func: TIMLogin line:121  called!
+[2018-12-6 15:47:45:961][INFO][tim.cc:211][imcore::TIMManager::Login][IMCore]Login|1-Begin|call identifer=1173_?????_1_ss sdkappid=1400002223
+[2018-12-6 15:47:45:961][INFO][auth.cc:370][imcore::TIMAuth::Login][IMCore]Login|1-Begin|Succ|identifer=1173_?????_1_ss sdkappid=1400002223
+[2018-12-6 15:47:45:961][DEBUG][task_queue.cc:68][imcore::TaskQueue::RunLoop][IMCore]func begin, name: report_timer_queue
+[2018-12-6 15:47:45:961][INFO][tim_int.cc:454][imcore::TIMIntManager::Init][IMCore]TIMIntManager::Init
+[2018-12-6 15:47:45:961][DEBUG][timer_queue.cc:121][imcore::TimerQueue::RunLoop][IMCore]timer runloop: name|ctx_timer_queue fire_time_ms|18446744071604091017
+[2018-12-6 15:47:45:967][DEBUG][tls.cpp:115][Pack0xa0b][IMCore]pack 0xa0b package:head:uint32_command: 2571
+uint32_service_type: 2
+ body:uint32_sdkappid: 1400002223
+str_identifier: "1173_?????_1_ss"
+bytes_usersig: "eJyr5lJQUFAK8QnWS0xOzi-NK4kvqSxIVVKwUlAyMzJU0kFIFxRkpsQnlsQbF6WApQ1NDIDAyMjIGElVakVBZlFqfGJaSWoRWJWRqaWRgQGSisyU1LySzLRMqLyhoblx-MuZHU927H0xuVMv3jC*uBhJdXFKdjzYZtxWFmemgyV9XQOdPT2ccoOzTNKyK909tS0L8nyD3XMqKwtcs-wNAwN8SgqMco2CwwMLLPNC9HMdM50Mc4Pc8gsLQ7MtIgJd-E2d-CNM9HOcwytdzXPT3Ez9fA09wgz9MiqDDEvTbW2RrCzJzIUEkaGpiYmBhYGZkakSVy0XANHsXbg_"
+
+[2018-12-6 15:47:45:967][INFO][transport.cpp:235][Transport::Pack][IMCore]pack without backsig
+[2018-12-6 15:47:45:967][INFO][sso_conn.cc:468][imcore::SSOConn::Send][IMCore]insert to wait_queue_|cmd:wtlogin64.trans_emp|queue size:1
+[2018-12-6 15:47:46:10][INFO][sso_conn.cc:791][imcore::SSOConn::CheckConn][IMCore]try to connect...
+[2018-12-6 15:47:46:10][EVENT][config_store.cc:134][imcore::ConfigStore::GetSsoAddrList][IMCore]reset idx
+[2018-12-6 15:47:46:10][EVENT][config_store.cc:228][imcore::ConfigStore::GetDefaultSsoAddrList][IMCore]use default sso addr list
+[2018-12-6 15:47:46:10][INFO][sso_conn.cc:261][imcore::SSOConn::Connect][IMCore]connect to 59.37.116.121:8080
+[2018-12-6 15:47:46:10][INFO][sso_conn.cc:1006][imcore::SSOConn::set_status][IMCore]set network status 2
+[2018-12-6 15:47:46:10][INFO][sso_conn.cc:1027][imcore::SSOConn::set_status][IMCore]conn has no callback to call! status:2
+[2018-12-6 15:47:46:10][INFO][http_conn.cc:283][imcore::HttpConn::ParseUrl][IMCore]schema:http||host:configsvr.openmsf.3g.qq.com|port:80|path:/configsvr/openlist.jsp|query:
+[2018-12-6 15:47:46:16][DEBUG][task_queue.cc:76][imcore::TaskQueue::RunLoop][IMCore]func end, name: report_timer_queue
+[2018-12-6 15:47:46:61][INFO][sso_conn.cc:129][imcore::conn_cb][IMCore]connect done:0
+[2018-12-6 15:47:46:61][DEBUG][sso_conn.cc:858][imcore::SSOConn::UpdateLastPkgTime][IMCore]UpdateLastPkgTime: 1232831304
+[2018-12-6 15:47:46:61][INFO][sso_conn.cc:1006][imcore::SSOConn::set_status][IMCore]set network status 1
+[2018-12-6 15:47:46:61][INFO][sso_conn.cc:1027][imcore::SSOConn::set_status][IMCore]conn has no callback to call! status:1
+[2018-12-6 15:47:46:61][INFO][sso_conn.cc:415][imcore::SSOConn::SendRemained][IMCore]send network check buffer
+[2018-12-6 15:47:46:61][INFO][sso_conn.cc:429][imcore::SSOConn::SendRemained][IMCore]insert seq 23732 to resend queue, now size is 0
+[2018-12-6 15:47:46:61][INFO][sso_conn.cc:433][imcore::SSOConn::SendRemained][IMCore]add req to timeout queue:wtlogin64.trans_emp|seq:23732|daedline:1232841203|now:1232831304|timeout:10000
+[2018-12-6 15:47:46:61][INFO][sso_data.cc:357][imcore::SSOData::serialize][IMCore]uin:0 servicecmd:wtlogin64.trans_emp lower:wtlogin64.trans_emp
+[2018-12-6 15:47:46:61][INFO][sso_conn.cc:454][imcore::SSOConn::SendRemained][IMCore]send cmd:wtlogin64.trans_emp|seq:23732
+[2018-12-6 15:47:46:64][INFO][db_http.cpp:77][imcore::HTTPRequest::encode][IMCore]out_len:295
+[2018-12-6 15:47:46:111][EVENT][sso_conn.cc:1039][imcore::SSOConn::CheckResend][IMCore]resend ip list is empty
+[2018-12-6 15:47:46:114][INFO][sso_conn.cc:68][imcore::read_cb][IMCore]read callback receive data len:25
+[2018-12-6 15:47:46:114][INFO][sso_conn.cc:1081][imcore::SSOConn::HandleNetworkCheckRsp][IMCore]recv network check response
+[2018-12-6 15:47:46:160][EVENT][sso_conn.cc:1039][imcore::SSOConn::CheckResend][IMCore]resend ip list is empty
+[2018-12-6 15:47:46:175][INFO][http_conn.cc:149][imcore::on_message_begin][IMCore]recv begin
+[2018-12-6 15:47:46:175][INFO][http_conn.cc:158][imcore::on_message_complete][IMCore]recv complete
+[2018-12-6 15:47:46:175][INFO][tim_sso_addr.cpp:45][SSoAddrAssitant::ParseSsoList][IMCore]len: 216|ver: 1|mobcmd: 2|mobseq: 1003
+[2018-12-6 15:47:46:175][EVENT][tim_sso_addr.cpp:53][SSoAddrAssitant::ParseSsoList][IMCore]ssolist rsp: 
+080812150a0e3138322e3235342e31382e32343710903f180112150a0e3138322e3235342e35312e31303410bb03180012140a0e3132332e3135312e37392e3134381050180012140a0d35392e33372e3131362e31323110b06d180112140a0d35382e3235302e3133362e353310bb0318001a140a0e3138322e3235342e31382e323437105018001a150a0f3132332e3135312e3133372e313038105018001a130a0d35392e33372e3131362e313231105018001a140a0e3136332e3137372e35362e31323310501800
+[2018-12-6 15:47:46:175][INFO][sso_conn.cc:929][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]UpdateSsoListByHttp get rsp
+[2018-12-6 15:47:46:175][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:182.254.18.247 port:8080
+[2018-12-6 15:47:46:175][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:182.254.51.104 port:443
+[2018-12-6 15:47:46:175][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:123.151.79.148 port:80
+[2018-12-6 15:47:46:175][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:59.37.116.121 port:14000
+[2018-12-6 15:47:46:175][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:58.250.136.53 port:443
+[2018-12-6 15:47:46:175][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:182.254.18.247 port:80
+[2018-12-6 15:47:46:175][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:123.151.137.108 port:80
+[2018-12-6 15:47:46:175][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:59.37.116.121 port:80
+[2018-12-6 15:47:46:175][INFO][sso_conn.cc:931][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]get sso addr:163.177.56.123 port:80
+[2018-12-6 15:47:46:179][INFO][sso_conn.cc:935][imcore::`anonymous-namespace'::<lambda1>::operator ()][IMCore]UpdateSsoListByHttp succ
+[2018-12-6 15:47:46:179][INFO][http_conn.cc:211][imcore::HttpConn::~HttpConn][IMCore]dtor: httpconn
+[2018-12-6 15:47:46:216][INFO][sso_conn.cc:68][imcore::read_cb][IMCore]read callback receive data len:327
+[2018-12-6 15:47:46:216][INFO][sso_conn.cc:597][imcore::SSOConn::Recv][IMCore]recv hexdump: 327
+00000147000007d00214000000053085ca7d0a6c0a8b1c857cdfd6ed9b4f7fc591fbde7d9120800bf2231928327d3fa7143374f5da636ecc83448154cce2cad9ee56f89771b6f64679d8228d45e162f9e09932c44bb345faab8b52d4e1a669287ea1cfb2b4b53aea1b37521d5d3ee7377bfbead7d1d2513ec21a3511ccade714154e85c3730369ec6de1e101e6338fcd8deeed8cd88a0300558d73c577e10b59dec850a371f5896b83471d26a76eede9b94abd7f6d91a82cac0f336fbe24e97f73c588716f4d37a2eaddd0b807b0ed7b9566b1d70d186e965ffe6f81d8a05dc6b3365b5709a56949919d3febb012e5737eb2b30815592b0590b26cceeac699468227073e7b416c58a3fbdef1d2557a4298e08cfd5856ee4c5713a84dd8143dc682687ecbf8fc8a75841935244b82f9ea65322357fc394c6c6cf6bbb50d922a73b86c068bfab989
+[2018-12-6 15:47:46:216][INFO][sso_conn.cc:606][imcore::SSOConn::Recv][IMCore]totalsize = 327
+[2018-12-6 15:47:46:216][DEBUG][sso_conn.cc:858][imcore::SSOConn::UpdateLastPkgTime][IMCore]UpdateLastPkgTime: 1232831454
+[2018-12-6 15:47:46:216][INFO][sso_conn.cc:622][imcore::SSOConn::Recv][IMCore]recv pkg|cmd:wtlogin64.trans_emp|seq:23732
+[2018-12-6 15:47:46:216][INFO][sso_conn.cc:636][imcore::SSOConn::Recv][IMCore]CURRENT 1 TIMES CALLBACK! BEFORE CALLBACK!
+[2018-12-6 15:47:46:216][INFO][tim_callback_impl_c.cpp:26][TIMCB_Request_C_Impl::OnSuccess][IMCore]OnSuccess() called!
+[2018-12-6 15:47:46:216][DEBUG][transport.cpp:149][RequestCallbackOnSuccessAsync][IMCore]recv succ
+[2018-12-6 15:47:46:216][INFO][transport.cpp:322][Transport::Unpack][IMCore]decrypt pkg succ

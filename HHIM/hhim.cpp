@@ -2,10 +2,8 @@
 #include "tim_c.h"
 #include "tim_group_assistant.h"
 #include <QString>
-#include <stdio.h>
-#include <cstring>
-
-using namespace std;
+#include <QNetworkAccessManager>
+#include <QThread>
 
 HHIM *HHIM::getInstance()
 {
@@ -33,33 +31,29 @@ void HHIM::uninitIM()
     TIMUninit();
 }
 
-QString HHIM::getSigById(QString useID)
-{
-    QString sig;
-    return sig;
-}
-
-void HHIM::login(int app_id,QString user_id)
+void HHIM::login(int app_id,QString user_id,int accoutType,QString user_sig)
 {
     QByteArray ba = QString::number(app_id).toLatin1();
     char* appID = ba.data();
 
-    QString sig = getSigById(user_id);
-
-
-    char type[] = "107";
-//    char *type = "107";
+    char type[20];
+    _itoa(accoutType,type,10);
 
     QByteArray ba1 = user_id.toLatin1();
     char* userID = ba1.data();
-
 
     TIMUserInfo user;
     user.account_type = type;
     user.app_id_at_3rd = appID;
     user.identifier = userID;
 
+    QString sig = user_sig;
     hhLogin(app_id,&user,sig);
+}
+
+void HHIM::logout()
+{
+    hhLogout();
 }
 
 void HHIM::hhLogin(int app_id,TIMUserInfo *user, QString user_sig)
@@ -214,3 +208,21 @@ void HHIM::setKickOfflineCallBack()
     callback.data = &callback;
     TIMSetKickOfflineCallBack(&callback);
 }
+
+void HHIM::queryGroupMemberList(QString id)
+{
+    QByteArray ba = id.toLatin1();
+    const char*groupid = ba.data();
+
+    TIMGetGroupMemberInfoCB callback;
+    callback.OnSuccess = GroupMemberListCallBack::GetGroupMemberInfoOnSuccess;
+    callback.OnError = GroupMemberListCallBack::GetGroupMemberInfoOnError;
+    TIMGetGroupMembers(groupid, &callback);
+//    //wait for callback
+//    SLEEP(1);
+ }
+void CBGetGroupMemberInfoOnSuccessImp(TIMGroupMemberInfoHandle* handle_array, uint32_t array_size, void* data)
+{
+
+}
+

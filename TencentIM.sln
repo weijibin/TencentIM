@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HHIM", "HHIM\HHIM.vcxproj", "{371CCE25-CE5A-353F-9BCE-A87935CB0873}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IMTest", "IMTest\IMTest.vcxproj", "{B4F76E20-94F6-353A-B13A-A3CCCD44FA88}"
+	ProjectSection(ProjectDependencies) = postProject
+		{371CCE25-CE5A-353F-9BCE-A87935CB0873} = {371CCE25-CE5A-353F-9BCE-A87935CB0873}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{371CCE25-CE5A-353F-9BCE-A87935CB0873}.Debug|Win32.ActiveCfg = Debug|Win32
+		{371CCE25-CE5A-353F-9BCE-A87935CB0873}.Debug|Win32.Build.0 = Debug|Win32
+		{371CCE25-CE5A-353F-9BCE-A87935CB0873}.Release|Win32.ActiveCfg = Release|Win32
+		{371CCE25-CE5A-353F-9BCE-A87935CB0873}.Release|Win32.Build.0 = Release|Win32
+		{B4F76E20-94F6-353A-B13A-A3CCCD44FA88}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B4F76E20-94F6-353A-B13A-A3CCCD44FA88}.Debug|Win32.Build.0 = Debug|Win32
+		{B4F76E20-94F6-353A-B13A-A3CCCD44FA88}.Release|Win32.ActiveCfg = Release|Win32
+		{B4F76E20-94F6-353A-B13A-A3CCCD44FA88}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		Qt5Version = Qt5.9.2
+	EndGlobalSection
+EndGlobal

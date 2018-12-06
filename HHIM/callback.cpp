@@ -91,6 +91,27 @@ void GroupNotifyCallBack::GroupUpdate(const char *groupId)
     qDebug()<<"GroupUpdate! callback:%x"<<groupId;
 }
 
+void GroupMemberListCallBack::GetGroupMemberInfoOnSuccess(TIMGroupMemberInfoHandle* handle_array, uint32_t array_size, void* data)
+{
+    QStringList list;
+    char buf[100] = {0};
+    for (uint32_t i = 0; i<array_size; i++)
+    {
+        uint32_t len = 100;
+        GetGroupMemberID(handle_array[i], buf, &len);
+        list.append(QString(buf));
+    }
+    emit HHIM::getInstance()->sigMemberList(list);
+}
+
+void GroupMemberListCallBack::GetGroupMemberInfoOnError(int code, const char *desc, void *data)
+{
+    QString err = QString("Error! code = <%1> desc = <%2>").arg(code).arg(QString(desc));
+    qDebug()<<err
+        <<QString(static_cast<char*>(data));
+    emit HHIM::getInstance()->sigErrorCode(err);
+}
+
 void CommonCallBack::CBCommOnSuccess(void* data)
 {
     qDebug()<<"Success"<<QString(static_cast<char*>(data));
@@ -98,5 +119,8 @@ void CommonCallBack::CBCommOnSuccess(void* data)
 
 void CommonCallBack::CBCommOnError(int code, const char* desc, void* data)
 {
-    qDebug()<<QString("Error! code = <%1> desc = <%2>").arg(code).arg(QString(desc));
+    QString err = QString("Error! code = <%1> desc = <%2>").arg(code).arg(QString(desc));
+    qDebug()<<err
+        <<QString(static_cast<char*>(data));
+    emit HHIM::getInstance()->sigErrorCode(err);
 }

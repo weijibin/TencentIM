@@ -1,0 +1,18 @@
+﻿  Generate moc_predefs.h
+  Moc'ing hhim.h...
+  callback.cpp
+  hhim.cpp
+  moc_hhim.cpp
+e:\github\personal\tencent_im\tencentim\hhim\hhim.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 hhim.cpp)
+e:\github\personal\tencent_im\tencentim\hhim\generatedfiles\release\../../hhim.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 .\GeneratedFiles\Release\moc_hhim.cpp)
+e:\github\personal\tencent_im\tencentim\hhim\../HHIM/hhim.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 callback.cpp)
+callback.cpp(26): warning C4018: “<”: 有符号/无符号不匹配
+callback.cpp(20): warning C4100: “data”: 未引用的形参
+callback.cpp(55): warning C4018: “<”: 有符号/无符号不匹配
+callback.cpp(67): warning C4018: “<”: 有符号/无符号不匹配
+callback.cpp(99): warning C4100: “data”: 未引用的形参
+hhim.cpp(106): warning C4189: “info”: 局部变量已初始化但不引用
+hhim.cpp(144): warning C4189: “rt”: 局部变量已初始化但不引用
+hhim.cpp(175): warning C4189: “rt”: 局部变量已初始化但不引用
+    正在创建库 libs\libs\release\\HHIM.lib 和对象 libs\libs\release\\HHIM.exp
+  HHIM.vcxproj -> E:\GitHub\personal\Tencent_IM\TencentIM\HHIM\libs\libs\release\HHIM.dll

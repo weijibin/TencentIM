@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += widgets
+QT       += widgets  network core
 
 QT       -= gui
 

@@ -20,6 +20,13 @@ public:
     static void OnNewMessage(TIMMessageHandle* handles, uint32_t msg_num, void* data);
 };
 
+// 获取群成员
+class GroupMemberListCallBack {
+public:
+    static void GetGroupMemberInfoOnSuccess(TIMMessageHandle* handles, uint32_t msg_num, void* data);
+    static void GetGroupMemberInfoOnError(int code, const char* desc, void* data);
+};
+
 class GroupNotifyCallBack {
 public:
     static void MemberJoin(const char* groupId, const char** id, uint32_t num);

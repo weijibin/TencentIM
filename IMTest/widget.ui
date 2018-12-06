@@ -1,20 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>Widget</class>
- <widget class="QWidget" name="Widget" >
-  <property name="geometry" >
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>591</width>
+    <height>408</height>
    </rect>
   </property>
-  <property name="windowTitle" >
+  <property name="windowTitle">
    <string>Widget</string>
   </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTextEdit" name="textEdit"/>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLineEdit" name="msg"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="sendBtn">
+       <property name="text">
+        <string>发送</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLineEdit" name="appid"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="accountType"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="identifier"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QLineEdit" name="sig"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="loginBtn">
+       <property name="text">
+        <string>登录</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QLineEdit" name="groupid"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="joinBtn">
+       <property name="text">
+        <string>加入</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
  </widget>
- <layoutDefault spacing="6" margin="11" />
- <pixmapfunction></pixmapfunction>
+ <layoutdefault spacing="6" margin="11"/>
  <resources/>
  <connections/>
 </ui>
